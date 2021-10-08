@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F74EAB27102700003AAFF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F74EAA27102700003AAFF8 /* AppDelegate.m */; };
+		04F74EB427102700003AAFF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F74EB227102700003AAFF8 /* Main.storyboard */; };
+		04F74EB627102701003AAFF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F74EB527102701003AAFF8 /* Assets.xcassets */; };
+		04F74EB927102701003AAFF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F74EB727102701003AAFF8 /* LaunchScreen.storyboard */; };
+		04F74EBC27102701003AAFF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F74EBB27102701003AAFF8 /* main.m */; };
+		04F74EC827102975003AAFF8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F74EC727102975003AAFF8 /* libz.tbd */; };
+		04F74ECB2710297D003AAFF8 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F74ECA2710297D003AAFF8 /* libresolv.tbd */; };
+		04F74ECE27102984003AAFF8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F74ECD27102984003AAFF8 /* Security.framework */; };
+		04F74ED02710298A003AAFF8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F74ECF2710298A003AAFF8 /* SystemConfiguration.framework */; };
+		04F74ED227102991003AAFF8 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F74ED127102991003AAFF8 /* UserNotifications.framework */; };
+		04F74ED42710299A003AAFF8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F74ED32710299A003AAFF8 /* CoreFoundation.framework */; };
+		04F74ED6271029A0003AAFF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F74ED5271029A0003AAFF8 /* CoreGraphics.framework */; };
+		04F74ED8271029A9003AAFF8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F74ED7271029A9003AAFF8 /* CoreTelephony.framework */; };
+		04F74EDA27102E39003AAFF8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F74ED927102E39003AAFF8 /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04F74EA627102700003AAFF8 /* TangJinFu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TangJinFu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F74EA927102700003AAFF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04F74EAA27102700003AAFF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04F74EB327102700003AAFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F74EB527102701003AAFF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F74EB827102701003AAFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F74EBA27102701003AAFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F74EBB27102701003AAFF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04F74EC727102975003AAFF8 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		04F74ECA2710297D003AAFF8 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		04F74ECD27102984003AAFF8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		04F74ECF2710298A003AAFF8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		04F74ED127102991003AAFF8 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		04F74ED32710299A003AAFF8 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		04F74ED5271029A0003AAFF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04F74ED7271029A9003AAFF8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		04F74ED927102E39003AAFF8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F74EA327102700003AAFF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F74EDA27102E39003AAFF8 /* CFNetwork.framework in Frameworks */,
+				04F74ED227102991003AAFF8 /* UserNotifications.framework in Frameworks */,
+				04F74ED8271029A9003AAFF8 /* CoreTelephony.framework in Frameworks */,
+				04F74ED6271029A0003AAFF8 /* CoreGraphics.framework in Frameworks */,
+				04F74ED42710299A003AAFF8 /* CoreFoundation.framework in Frameworks */,
+				04F74ED02710298A003AAFF8 /* SystemConfiguration.framework in Frameworks */,
+				04F74ECE27102984003AAFF8 /* Security.framework in Frameworks */,
+				04F74ECB2710297D003AAFF8 /* libresolv.tbd in Frameworks */,
+				04F74EC827102975003AAFF8 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F74E9D27102700003AAFF8 = {
+			isa = PBXGroup;
+			children = (
+				04F74EA827102700003AAFF8 /* TangJinFu */,
+				04F74EA727102700003AAFF8 /* Products */,
+				04F74EC627102975003AAFF8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04F74EA727102700003AAFF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F74EA627102700003AAFF8 /* TangJinFu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F74EA827102700003AAFF8 /* TangJinFu */ = {
+			isa = PBXGroup;
+			children = (
+				04F74EA927102700003AAFF8 /* AppDelegate.h */,
+				04F74EAA27102700003AAFF8 /* AppDelegate.m */,
+				04F74EE1271042B7003AAFF8 /* TjfHome */,
+				04F74EE0271042AC003AAFF8 /* TjfCenter */,
+				04F74EDF27104297003AAFF8 /* TjfLogin */,
+				04F74EDE2710397D003AAFF8 /* TjfRoot */,
+				04F74EDD27103970003AAFF8 /* TjfPch */,
+				04F74EDC27103959003AAFF8 /* TjfTools */,
+				04F74EB227102700003AAFF8 /* Main.storyboard */,
+				04F74EB527102701003AAFF8 /* Assets.xcassets */,
+				04F74EB727102701003AAFF8 /* LaunchScreen.storyboard */,
+				04F74EBA27102701003AAFF8 /* Info.plist */,
+				04F74EBB27102701003AAFF8 /* main.m */,
+			);
+			path = TangJinFu;
+			sourceTree = "<group>";
+		};
+		04F74EC627102975003AAFF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F74ED927102E39003AAFF8 /* CFNetwork.framework */,
+				04F74ED7271029A9003AAFF8 /* CoreTelephony.framework */,
+				04F74ED5271029A0003AAFF8 /* CoreGraphics.framework */,
+				04F74ED32710299A003AAFF8 /* CoreFoundation.framework */,
+				04F74ED127102991003AAFF8 /* UserNotifications.framework */,
+				04F74ECF2710298A003AAFF8 /* SystemConfiguration.framework */,
+				04F74ECD27102984003AAFF8 /* Security.framework */,
+				04F74ECA2710297D003AAFF8 /* libresolv.tbd */,
+				04F74EC727102975003AAFF8 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04F74EDC27103959003AAFF8 /* TjfTools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TjfTools;
+			sourceTree = "<group>";
+		};
+		04F74EDD27103970003AAFF8 /* TjfPch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TjfPch;
+			sourceTree = "<group>";
+		};
+		04F74EDE2710397D003AAFF8 /* TjfRoot */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TjfRoot;
+			sourceTree = "<group>";
+		};
+		04F74EDF27104297003AAFF8 /* TjfLogin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TjfLogin;
+			sourceTree = "<group>";
+		};
+		04F74EE0271042AC003AAFF8 /* TjfCenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TjfCenter;
+			sourceTree = "<group>";
+		};
+		04F74EE1271042B7003AAFF8 /* TjfHome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TjfHome;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F74EA527102700003AAFF8 /* TangJinFu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F74EBF27102701003AAFF8 /* Build configuration list for PBXNativeTarget "TangJinFu" */;
+			buildPhases = (
+				04F74EA227102700003AAFF8 /* Sources */,
+				04F74EA327102700003AAFF8 /* Frameworks */,
+				04F74EA427102700003AAFF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TangJinFu;
+			productName = TangJinFu;
+			productReference = 04F74EA627102700003AAFF8 /* TangJinFu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F74E9E27102700003AAFF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					04F74EA527102700003AAFF8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 04F74EA127102700003AAFF8 /* Build configuration list for PBXProject "TangJinFu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F74E9D27102700003AAFF8;
+			productRefGroup = 04F74EA727102700003AAFF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F74EA527102700003AAFF8 /* TangJinFu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F74EA427102700003AAFF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F74EB927102701003AAFF8 /* LaunchScreen.storyboard in Resources */,
+				04F74EB627102701003AAFF8 /* Assets.xcassets in Resources */,
+				04F74EB427102700003AAFF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F74EA227102700003AAFF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F74EAB27102700003AAFF8 /* AppDelegate.m in Sources */,
+				04F74EBC27102701003AAFF8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04F74EB227102700003AAFF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F74EB327102700003AAFF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04F74EB727102701003AAFF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F74EB827102701003AAFF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F74EBD27102701003AAFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04F74EBE27102701003AAFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F74EC027102701003AAFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				INFOPLIST_FILE = TangJinFu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tjf.TangJinFu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04F74EC127102701003AAFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				INFOPLIST_FILE = TangJinFu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tjf.TangJinFu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F74EA127102700003AAFF8 /* Build configuration list for PBXProject "TangJinFu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F74EBD27102701003AAFF8 /* Debug */,
+				04F74EBE27102701003AAFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F74EBF27102701003AAFF8 /* Build configuration list for PBXNativeTarget "TangJinFu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F74EC027102701003AAFF8 /* Debug */,
+				04F74EC127102701003AAFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F74E9E27102700003AAFF8 /* Project object */;
+}
